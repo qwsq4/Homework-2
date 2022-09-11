@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        
         double dog = 8;
         var cat = 3.6;
         var paper = 763789;
