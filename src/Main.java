@@ -1,15 +1,18 @@
 public class Main {
     public static void main(String[] args){
+        //Задача 6
+        System.out.println("   Задача 6");
     var boxerWeight1 = 78.2;
     var boxerWeight2 = 82.7;
-    var boxerTotalWeight = boxerWeight1 + boxerWeight2;
-        System.out.println("Общий вес бойцов " + boxerTotalWeight + " кг");
+        System.out.println("Общий вес бойцов " + boxerWeight1 + boxerWeight2 + " кг");
 
-    var boxerWeightDifference = boxerWeight2 - boxerWeight1;
-        System.out.println("Разница в весе " + boxerWeightDifference + " кг");
-    var boxerWeightDifference1 = boxerWeight2 % boxerWeight1;
-        System.out.println("Разница в весе " + boxerWeightDifference1 + " кг");
+        //Задача 7
+        System.out.println("   Задача 7");
+        System.out.println("Разница в весе (1 способ) " + (boxerWeight2 - boxerWeight1) + " кг");
+        System.out.println("Разница в весе (2 способ) " + (boxerWeight2 % boxerWeight1) + " кг");
 
+        //Задача 6
+        System.out.println("   Задача 8");
     var totalWorkTime = 640;
     var workerWorkTime = 8;
     var totalWorkers = totalWorkTime / workerWorkTime;
