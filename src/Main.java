@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         //Задача 4
         System.out.println("   Задача 4");
         var friend = 19;
